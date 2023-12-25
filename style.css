@@ -23,6 +23,7 @@ body{
     align-items: center;
     justify-content: space-between;
 }
+
 .card .search input{
     flex: 1;
     padding: 10px 25px;
@@ -31,7 +32,7 @@ body{
     height: 60px;
     background: white;
     margin-right: 16px;
-    font-style: 16px;
+    font-size: 16px;
     color: #555;
     border-radius: 30px;
 }
@@ -79,4 +80,13 @@ body{
 .humidity, .wind{
     font-size: 28px;
     margin-top: -6px;
+}
+.weather{
+    display: none;
+}
+.error{
+    font-size: 23px;
+    text-align: left;
+    margin-top: 20px;
+    display: none;
 }
